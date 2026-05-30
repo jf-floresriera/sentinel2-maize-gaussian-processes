@@ -1,19 +1,6 @@
 # ============================================================
 # Script C_v4: Validación — estilo IJRS/MDPI
-#   1. n=100 balanceado por fecha (no acumulado)
-#   2. Percentiles P25-P75 (sin barras de error)
-#   3. LAI: excluir imagen con resolución anómala como referencia
-#   4. Métricas por fecha + métricas globales separadas
-#   5. Panel Figure A — Scatter (3 vars) + Mapa puntos recortado a finca
-#   6. Métricas anotadas DENTRO del gráfico (no en título)
-#   7. Paneles compuestos multi-var estilo revista IJRS/MDPI
-#   8. Paleta por variable (psicología del color pastel)
-#   9. Colorbar con leyenda en mapa
-#  10. Todo el texto en español
-#  11. Corrección n=100 garantizado en LAI
-#  12. Tipografía Times New Roman / DejaVu Serif
-#  13. Espaciado compacto — sin saturación ni superposición
-#  14. suptitle del panel completo
+#  
 # ============================================================
 import os, re
 import numpy as np
